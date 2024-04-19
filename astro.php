@@ -1,7 +1,14 @@
 <?php
-function addition1($a, $b) {
-    return $a + $b;
+function substraction($a,$b,$c) {
+    return $a-$b-$c;
 }
 
-$c = addition1(2, 3);
-echo $c;
+$x = substraction(10, 3,4);
+echo $x; 
+
+function multiplication($a,$b,$c) {
+    return $a*$b*$c;
+}
+
+$f = multiplication(2, 3,4);
+echo $f;
