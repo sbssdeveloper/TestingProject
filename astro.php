@@ -1,10 +1,10 @@
 <?php
-function addition1($a,$b,$c) {
-    return $a+$b+$c;
+function substraction($a,$b,$c) {
+    return $a-$b-$c;
 }
 
-$e = addition1(2, 3,4);
-echo $e;
+$x = substraction(10, 3,4);
+echo $x; 
 
 function multiplication($a,$b,$c) {
     return $a*$b*$c;
